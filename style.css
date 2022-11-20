@@ -1,0 +1,119 @@
+body{
+    margin:150px;
+    padding:300px;
+    width: auto;
+    height: auto;
+    background: url(login_image2.webp);
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 500px;
+    height: 700px;
+    /* background-color: #000; */
+    color: #fff;
+    top: 70%;
+    left:50%;
+    bottom:100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 75px 120px; 
+}
+
+/* .poshith{
+    width: 100px;
+    height: 100px;
+    border-radius: 1000000000000%;
+    position: absolute;
+    top: -30px;
+    left: calc(100% -50px);
+    right: calc(100000000% px);
+} */
+
+h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 200;
+    position: absolute;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transaprent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px ;
+}
+
+.loginbox input[type="password"]
+{
+   
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transaprent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px ;
+}
+
+/* .loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+} */
+
+.loginbox input[type="submit"]
+{
+    border: none; 
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover 
+{
+    color: #ffc107;
+}
